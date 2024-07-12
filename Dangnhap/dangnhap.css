@@ -1,0 +1,497 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+.logo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.nav-bar {
+  position: sticky;
+  z-index: 9999;
+  width: 100%;
+}
+.section-one ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+.section-one ul li {
+  margin: 5px 15px;
+}
+.section-one ul li a {
+  color: black;
+  text-decoration: none;
+}
+.section-one {
+  margin-top: 0px;
+  padding: 0px 95px;
+  background-color: #fff9f9;
+  font-size: 13.5px;
+}
+.red {
+  color: red;
+}
+.logoBibo {
+  width: 188px;
+  height: auto;
+}
+.sectione-two {
+  position: relative;
+  padding: 15px 0px;
+  display: flex;
+  padding-left: 148px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+.textBox input {
+  width: 665.6px;
+  height: 38.55px;
+  border: none;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #544e4e;
+  border-radius: 5px;
+}
+
+.Search {
+  position: relative;
+  border: 1px solid #f6412d;
+  border-radius: 5px;
+  width: 50%;
+}
+.logoSearch {
+  position: absolute;
+  background-color: red;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  padding: 0px 15px 0px 13px;
+  line-height: 43px;
+}
+.logoShopping {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  right: -83px;
+}
+.logoNotification {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 250px;
+}
+.logoBill {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+}
+.nav-bar .section-one {
+  position: sticky;
+  z-index: 9999;
+}
+.nav-bar .sectione-two {
+  position: sticky;
+  z-index: 9999;
+}
+.sectione-two .logoBill i:hover {
+  background-color: #f6412d;
+}
+.nav-bar .sectione-two .logoShopping::before {
+  content: "1";
+  position: absolute;
+  display: block;
+  height: 12px;
+  width: 12px;
+  background-color: red;
+  border-radius: 100%;
+  line-height: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding: 2px;
+  top: -10px;
+  left: 28px;
+  color: white;
+}
+.container {
+  position: relative;
+}
+.container-one {
+  position: absolute;
+  top: 15px;
+  left: 140px;
+}
+.bg01-container-one a img {
+  position: absolute;
+  border-radius: 10px;
+  width: 830px;
+  height: 430px;
+  bottom: 10px;
+}
+.bg02-container-one a img {
+  position: absolute;
+  border-radius: 10px;
+  width: 370px;
+  height: 430px;
+  bottom: 10px;
+  left: 850px;
+}
+.bg03-container-one {
+  position: fixed;
+  z-index: 9999;
+}
+.bg03-container-one a img {
+  position: absolute;
+  border-radius: 10px;
+  width: 85px;
+  height: 116px;
+  bottom: 10px;
+  left: 1294px;
+  top: 0px;
+}
+.menu {
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+}
+.menu .menu-one a {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: -140px;
+  width: 50px;
+  height: 43px;
+  line-height: 45px;
+  font-size: 25px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu .menu-two a {
+  background-color: red;
+  position: absolute;
+  top: 44px;
+  left: -140px;
+  width: 50px;
+  height: 43px;
+  line-height: 45px;
+  font-size: 25px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu .menu-three a {
+  background-color: red;
+  position: absolute;
+  top: 88px;
+  left: -140px;
+  width: 50px;
+  height: 43px;
+  line-height: 45px;
+  font-size: 25px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu .menu-four a {
+  background-color: red;
+  position: absolute;
+  top: 132px;
+  left: -140px;
+  width: 50px;
+  height: 43px;
+  line-height: 45px;
+  font-size: 25px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.text-one {
+  position: absolute;
+  background-color: red;
+  width: 160px;
+  height: 43px;
+  padding: 5px 5px;
+  padding-top: 12px;
+  font-size: 16.5px;
+  color: white;
+  left: -90px;
+  display: none;
+}
+.menu .menu-one a:hover .text-one {
+  display: block;
+  /* cursor: pointer; */
+}
+.text-two {
+  position: absolute;
+  background-color: red;
+  width: 74.74px;
+  height: 43px;
+  padding: 5px 5px;
+  padding-top: 12px;
+  font-size: 16.5px;
+  color: white;
+  top: 44px;
+  left: -90px;
+  display: none;
+}
+.menu .menu-two #giohang:hover div.text-two {
+  display: block;
+  cursor: pointer;
+}
+.text-three {
+  position: absolute;
+  background-color: red;
+  width: 74.74px;
+  height: 43px;
+  padding: 5px 5px;
+  padding-top: 12px;
+  font-size: 16.5px;
+  color: white;
+  top: 88px;
+  left: -90px;
+  display: none;
+}
+.menu .menu-three:hover .text-three {
+  display: block;
+  cursor: pointer;
+}
+.text-four {
+  position: absolute;
+  background-color: red;
+  width: 150px;
+  height: 43px;
+  padding: 5px 5px;
+  padding-top: 12px;
+  font-size: 16.5px;
+  color: white;
+  top: 132px;
+  left: -90px;
+  display: none;
+}
+.menu .menu-four:hover .text-four {
+  display: block;
+  cursor: pointer;
+}
+.tinhtrang {
+  height: 76px;
+}
+.container-two {
+  text-align: center;
+  margin-top: 10px;
+}
+.container-five {
+  position: absolute;
+  text-align: left;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  background-color: white;
+  width: 100%;
+  height: 410px;
+  top: 575px;
+  display: flex;
+  justify-content: space-around;
+}
+.box-container-five {
+  padding: 50px 20px 20px 20px;
+  height: 350px;
+  width: 20%;
+}
+.box-container-five:nth-child(1) {
+  margin-left: 180px;
+}
+.box-container-five:nth-child(4) {
+  margin-right: 180px;
+}
+.box-container-five .content h4 {
+  padding-bottom: 25px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+  color: #222;
+  font-size: 20px;
+}
+.box-container-five .content p {
+  padding-bottom: 24px;
+  margin: 0 0 10px;
+  color: #222;
+  font-size: 13px;
+}
+.input-dangki-container-five {
+  width: 335px;
+  height: 47px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.input-dangki-container-five input {
+  width: 210px;
+  height: 45px;
+  border: none;
+  padding-left: 8px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+}
+.input-dangki-container-five button {
+  height: 38px;
+  width: 115px;
+  background-color: var(--Brand, #f12c2c);
+  border: none;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+}
+.box-container-five:nth-child(4) .content p {
+  padding-bottom: 11px;
+}
+.icon-mxh ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-top: 10px;
+}
+.icon-mxh ul .facebook {
+  background-color: #eef1f1;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 9px;
+}
+.icon-mxh ul .facebook a {
+  font-size: 21px;
+}
+.icon-mxh ul .tiktok {
+  background-color: #eef1f1;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 9px;
+}
+.icon-mxh ul .tiktok a {
+  font-size: 21px;
+}
+.icon-mxh ul .whatsapp {
+  background-color: #eef1f1;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 9px;
+}
+.icon-mxh ul .whatsapp a {
+  font-size: 21px;
+}
+.icon-mxh ul .youtube {
+  background-color: #eef1f1;
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+}
+.icon-mxh ul .youtube a {
+  font-size: 21px;
+}
+.footer {
+  position: relative;
+  text-align: center;
+  top: 435px;
+}
+.text-quay-lai span a {
+  color: #544e4e;
+  text-decoration: none;
+}
+.text-quay-lai span a:hover {
+  color: #f12c2c;
+}
+.bg-nen-login .img-nen {
+  background-image: url(https://banghieuviet.org/wp-content/uploads/2024/01/background-dep-4k.jpg);
+  width: 100%;
+  height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-nen-login .container-two {
+  position: absolute;
+  top: 60px;
+  left: 570px;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 450px;
+  height: 425px;
+  border-radius: 10px;
+}
+.bg-nen-login .container-two .head-text-login .text-dang-nhap {
+  padding-top: 35px;
+  font-size: 35px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+}
+.bg-nen-login .container-two .head-text-login .text-down-dang-nhap {
+  margin-top: 29px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.bg-nen-login .container-two .account {
+  text-align: left;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 40px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+}
+.bg-nen-login .container-two .account input {
+  width: 250px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #eee;
+  border: none;
+  margin-top: 5px;
+  padding: 7px;
+}
+.bg-nen-login .container-two .passWord {
+  margin-top: 22px;
+}
+.bg-nen-login .container-two .btn-dang-nhap button {
+  position: absolute;
+  top: 365px;
+  left: 150px;
+  width: 150px;
+  height: 40px;
+  background-color: #f12c2c;
+  border: none;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+}
+#showErrorUS {
+  color: #f12c2c;
+  font-size: 15px;
+  margin-top: 5px;
+  display: none;
+}
+#showErrorPW {
+  color: #f12c2c;
+  font-size: 15px;
+  margin-top: 5px;
+  display: none;
+}
+.star {
+  color: #f12c2c;
+}
+.input-pw #eye-show {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 285px;
+  left: 325px;
+}
+.input-pw #eye-hidden {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 285px;
+  left: 325px;
+  display: none;
+}

@@ -1,0 +1,268 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+.header .text-head span {
+  color: #f6412d;
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+}
+.nav-he-thong {
+  padding: 6px;
+  width: 100%;
+  height: 60px;
+  background-color: #f6412d;
+  display: flex;
+}
+.nav-he-thong img.logoBibo {
+  width: 385px;
+  height: 50px;
+  padding-left: 160px;
+}
+.nav-he-thong .list-chuc-nang {
+  margin-left: 155px;
+  padding-top: 15px;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+}
+.nav-he-thong .list-chuc-nang .menu-lever-1 {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+.nav-he-thong .list-chuc-nang .menu-lever-1 li:nth-child(1) {
+  padding-right: 30px;
+}
+.nav-he-thong .list-chuc-nang .menu-lever-1 li a:hover {
+  color: black;
+}
+.nav-he-thong .list-chuc-nang .menu-lever-1 li:nth-child(2) {
+  padding-right: 30px;
+}
+.nav-he-thong .list-chuc-nang .menu-lever-1 li:nth-child(3) {
+  padding-right: 30px;
+}
+.section-he-thong .section-bg-ht {
+  background-image: url(https://cosp.com.vn/uploaded/thu/me-be/linh-anh/thiet-ke-cua-hang-bim-sua-linh-anh-3.jpg);
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-lever-2 {
+  margin-top: 16px;
+  list-style: none;
+  background-color: #f6412d;
+  width: 140px;
+  height: 145px;
+  display: none;
+}
+.menu-lever-2 li a {
+  text-decoration: none;
+  color: #fafafa;
+  padding-left: 10px;
+}
+.menu-lever-2 li:nth-child(1) {
+  margin: 10px 0px;
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 7px;
+}
+.menu-lever-2 li a:hover {
+  color: black;
+}
+.menu-lever-2 li:nth-child(2) {
+  margin: 10px 0px;
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 7px;
+}
+.menu-lever-2 li:nth-child(3) {
+  margin: 10px 0px;
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 7px;
+}
+.menu-lever-2 li:nth-child(4) {
+  margin: 10px 0px;
+}
+.menu-lever-1 li:nth-child(1):hover .menu-lever-2 {
+  display: block;
+}
+.menu-lever-2-product {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 16px;
+  background-color: #f6412d;
+  width: 140px;
+  height: 70px;
+  display: none;
+}
+.menu-lever-2-product li:nth-child(1) {
+  padding-left: 7px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fafafa;
+}
+.menu-lever-2-product li:nth-child(2) {
+  padding-left: 7px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+.menu-lever-1 li:nth-child(3):hover .menu-lever-2-product {
+  display: block;
+}
+.section-table {
+  position: absolute;
+  top: 150px;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  text-align: center;
+
+  font-weight: 900;
+}
+table {
+  position: absolute;
+  top: 25px;
+  width: 1519px;
+  height: 955px;
+}
+thead tr th {
+  color: black;
+  font-size: 20px;
+  padding-top: 3px;
+  background-color: bisque;
+}
+tbody {
+  color: #544e4e;
+}
+.img-row-1 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/sua-meiji-so-9.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-2 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/sua-meiji-thanh-growing-up-formula-560g-1-3-tuoi.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-3 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/sua-meiji-so-0-noi-dia-nhat-800g.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-4 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/sua-bot-pediasurebavani-400g.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-5 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/sua-blackmores-so-1-900g.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-6 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/bim-bobby-quan-m74-6-10kg-t4.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-7 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/bim-bobby-quan-l68-9-13kg-t4.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-8 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/bim-bobby-quan-xxl56-tren-16kg-t4.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-9 {
+  background-image: url(https://media.bibomart.net/images/2024/2/2/1/origin/ta-quan-pun-m30-6-11kg.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-row-10 {
+  background-image: url(https://media.bibomart.net/images/2024/2/3/1/origin/ta-dan-goldgi-size-s-cho-be-tu-4-8kg.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-them-sua-xoa-timkiem {
+  display: flex;
+  position: absolute;
+  top: -12px;
+  left: 150px;
+}
+.btn-them-sua-xoa-timkiem a button {
+  width: 150px;
+  height: 30px;
+  background-color: #f6412d;
+  border: none;
+  border-radius: 3px;
+  color: #fafafa;
+  font-size: 15px;
+}
+.btn-them-sua-xoa-timkiem .btn-them a button {
+  margin-right: 15px;
+}
+.btn-them-sua-xoa-timkiem .btn-sua a button {
+  margin-right: 15px;
+}
+.btn-them-sua-xoa-timkiem .btn-xoa a button {
+  margin-right: 105px;
+}
+.btn-them-sua-xoa-timkiem .btn-timkiem a button {
+  position: relative;
+  left: 6px;
+}
+.input-tk input {
+  padding: 5px;
+  width: 195px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #333;
+}
+.section-table {
+  display: none;
+}
+.list-chuc-nang .menu-lever-1 li a {
+  color: #fafafa;
+  text-decoration: none;
+}
+.menu-lever-1 li:nth-child(5) {
+  margin-left: 400px;
+}
